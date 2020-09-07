@@ -12,6 +12,14 @@ For more details, see the following article:
 # Files
 * `slashes.sh` -- The interpreter of "///" implemented in POSIX-compliant shellscript.
 
+# Usage
+```sh
+./slashes.sh [ FILE ]
+```
+
+Leaving `FILE` to be empty, the program is read
+from stdin.
+
 # Requirements
 The interpreter requires following POSIX-compliant utilities:
 sh, od, tr, sed, grep, echo, awk, and xargs.
