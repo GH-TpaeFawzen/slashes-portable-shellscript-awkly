@@ -20,6 +20,13 @@ For more details, see the following article:
 Leaving `FILE` to be empty, the program is read
 from stdin.
 
+## Notes about your Slashes program
+This interpreter accepts any binarily-written program, because
+the interpreter translates the source into hexadecimal to be read
+byte-by-byte.
+This interpreter expects your program to be encoded in
+ASCII-compatible encoding.
+
 # Requirements
 The interpreter requires following POSIX-compliant utilities:
 sh, od, tr, sed, grep, echo, awk, and xargs.
