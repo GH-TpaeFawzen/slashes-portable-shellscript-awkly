@@ -11,6 +11,9 @@ For more details, see the following article:
 
 # Files
 * `slashes.sh` -- The interpreter of "///" implemented in POSIX-compliant shellscript.
+* `slashes-outputs-during-processing.sh` -- Slow, but outputs during processing the program.
+* `slashes-outputs-when-done.sh` -- Fast, but never outputs till completing the processing.
+  * This is just a copy of `slashes.sh` (original one).
 
 # Usage
 ```sh
