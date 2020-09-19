@@ -17,10 +17,8 @@ while :; do
 			debug=${1#-d}
 			shift
 			;;
-		*)
-			break
-			;;
 	esac
+	break
 done
 
 sedlyLF="$(printf '\\\012_')"; sedlyLF="${sedlyLF%_}"
