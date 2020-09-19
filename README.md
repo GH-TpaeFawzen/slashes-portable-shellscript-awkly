@@ -14,11 +14,16 @@ For more details, see the following article:
 
 # Usage
 ```sh
-./slashes.sh [ FILE ]
+./slashes.sh [ -d | -d1 | -d2 ] [ FILE ]
 ```
 
 Leaving `FILE` to be empty, the program is read
 from stdin.
+
+## Option
+* `-d` for debugging; outputs contents of buffer to the stderr, surrounding `[` and `]`.
+  * `-d` or `-d1`: ouputs before branching.
+  * `-d2`: outputs after actual printing operation.
 
 ## Notes about your Slashes program
 This interpreter accepts any binarily-written program, because
