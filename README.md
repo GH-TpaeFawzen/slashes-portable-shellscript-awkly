@@ -20,8 +20,19 @@ For more details, see the following article:
 ./slashes.sh [ FILE ]
 ```
 
+```sh
+./slashes-outputs-during-processing.sh [ -d | -d1 | -d2 | -d12 | -d21 ] [ FILE ]
+```
+
+Same goes to `slashes-outputs-when-done`.
+
 Leaving `FILE` to be empty, the program is read
 from stdin.
+
+## Option
+`-d` for debugging. `-d1` before one of substition or output, or `-d2`
+after output. `-d` is treated as if `-d1` is chosen.
+The debugging will be output to the stderr.
 
 ## Notes about your Slashes program
 This interpreter accepts any binarily-written program, because
