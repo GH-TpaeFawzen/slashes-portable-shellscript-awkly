@@ -38,7 +38,7 @@ esac
 awk '
 BEGIN{
 	debug="'"${debug:-NOPE}"'";
-	what2print=pattern=replacement="";
+	what2print=pattern=replace="";
 }
 function myPrint(str){
 	print str;
