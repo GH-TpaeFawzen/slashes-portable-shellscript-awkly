@@ -42,6 +42,7 @@ BEGIN{
 }
 function myPrint(str){
 	print str;
+	printed=1;
 }
 function addstr(str){
 	if(mode=0){
@@ -91,9 +92,10 @@ function action(){
 		break;
 	}
 	if(!mode&&what2print!~/^$/)myPrint(what2print);
+	if(!printed)printf"\"\"\n";
 }' |
-sed s/.../\\\\&/g |
-xargs -n 1 printf 2>/dev/null
+sed /\"/!s/.../\\\\&/g |
+xargs -n 1 printf
 
 # finally
 exit 0
