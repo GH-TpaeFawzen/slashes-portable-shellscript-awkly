@@ -13,7 +13,7 @@ usage_exit(){
 	Usage: ${0##*/} [ FILE ]
 	Argument:
 	- FILE. Must not begin with a hyphen.
-	Stdin: Used only if FILE is not given or just a hyphen '-' is given to FILE.
+	Stdin: Used only if FILE is omitted or just a hyphen '-'.
 	USAGE
 	exit 2
 }
