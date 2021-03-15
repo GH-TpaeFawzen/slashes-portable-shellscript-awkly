@@ -1,0 +1,21 @@
+Tested with the programs on the following page:
+<<https://esolangs.org/w/index.php?title=///&oldid=77322>>
+
+# outputs nothing and never halts
+Thue-Morse sequence (1st)
+Thue-Morse sequence (2nd)
+Fibonacci sequence (1st)
+Fibonacci sequence (2nd)
+
+# outputs something correct up to some point but never halts
+Looping counter
+
+# outputs something correct up to some point but also something incorrect and halts
+Simpler counter
+
+# outputs something incorrect
+Bitwise Cyclic Tag interpreter
+
+# outputs nothing and never halts
+Quines (original)
+Quines (more readable)
